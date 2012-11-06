@@ -83,7 +83,7 @@
     <TYPE>Grain</TYPE>
     <AMOUNT>1.50000e-01</AMOUNT>
     <YIELD>7.30000e+01</YIELD>
-    <COLOR>3.00000e+02</COLOR>
+    <COLOR>2.60000e+02</COLOR>
     <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
     <ORIGIN>United Kingdom</ORIGIN>
     <SUPPLIER></SUPPLIER>
@@ -103,7 +103,7 @@
     <TYPE>Grain</TYPE>
     <AMOUNT>1.50000e-01</AMOUNT>
     <YIELD>5.50000e+01</YIELD>
-    <COLOR>5.00000e+02</COLOR>
+    <COLOR>6.30000e+02</COLOR>
     <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
     <ORIGIN>US</ORIGIN>
     <SUPPLIER></SUPPLIER>
@@ -123,7 +123,7 @@
     <TYPE>Grain</TYPE>
     <AMOUNT>4.50000e-01</AMOUNT>
     <YIELD>7.50000e+01</YIELD>
-    <COLOR>2.20000e+01</COLOR>
+    <COLOR>5.00000e+01</COLOR>
     <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
     <ORIGIN>United Kingdom</ORIGIN>
     <SUPPLIER></SUPPLIER>
@@ -190,7 +190,7 @@
   <INSTRUCTIONS>
    <INSTRUCTION>
     <NAME>Add grains</NAME>
-    <DIRECTIONS>Add 4.000 kg Pale Malt (2 Row) UK, 200.000 g Chocolate Malt (UK), 200.000 g Black (Patent) Malt, 1.000 kg Amber Malt, to the mash tun.</DIRECTIONS>
+    <DIRECTIONS>Add 2.600 kg Pale Malt (2 Row) UK, 150.000 g Chocolate Malt (UK), 150.000 g Black (Patent) Malt, 450.000 g Amber Malt, to the mash tun.</DIRECTIONS>
     <HAS_TIMER>FALSE</HAS_TIMER>
     <TIMER_VALUE>00:00:00</TIMER_VALUE>
     <COMPLETED>FALSE</COMPLETED>
@@ -198,27 +198,19 @@
    </INSTRUCTION>
    <INSTRUCTION>
     <NAME>Heat water</NAME>
-    <DIRECTIONS>Bring 25.713 L water to 73.545 C, for upcoming infusions.</DIRECTIONS>
+    <DIRECTIONS>Bring 21.631 L water to 72.451 C, for upcoming infusions.</DIRECTIONS>
     <HAS_TIMER>FALSE</HAS_TIMER>
     <TIMER_VALUE>00:00:00</TIMER_VALUE>
     <COMPLETED>FALSE</COMPLETED>
     <INTERVAL>0.00000e+00</INTERVAL>
    </INSTRUCTION>
    <INSTRUCTION>
-    <NAME>Infusion - </NAME>
-    <DIRECTIONS>Add 25.713 L water at 73.545 C to mash to bring it to 69.000 C. Hold for 60.000 min.</DIRECTIONS>
+    <NAME>Infusion - beerlab</NAME>
+    <DIRECTIONS>Add 21.631 L water at 72.451 C to mash to bring it to 69.000 C. Hold for 60.000 min.</DIRECTIONS>
     <HAS_TIMER>FALSE</HAS_TIMER>
     <TIMER_VALUE>00:00:00</TIMER_VALUE>
     <COMPLETED>FALSE</COMPLETED>
     <INTERVAL>6.00000e+01</INTERVAL>
-   </INSTRUCTION>
-   <INSTRUCTION>
-    <NAME>Pre-boil</NAME>
-    <DIRECTIONS>You should now have 19.854 L wort. Add 6.000 L water to the kettle, bringing pre-boil volume to 25.854 L.</DIRECTIONS>
-    <HAS_TIMER>FALSE</HAS_TIMER>
-    <TIMER_VALUE>00:00:00</TIMER_VALUE>
-    <COMPLETED>FALSE</COMPLETED>
-    <INTERVAL>0.00000e+00</INTERVAL>
    </INSTRUCTION>
    <INSTRUCTION>
     <NAME>Start boil</NAME>
@@ -230,7 +222,7 @@
    </INSTRUCTION>
    <INSTRUCTION>
     <NAME>Hop addition</NAME>
-    <DIRECTIONS>Put 50.000 g Challenger into boil for 60.000 min.</DIRECTIONS>
+    <DIRECTIONS>Put 35.000 g Challenger into boil for 60.000 min.</DIRECTIONS>
     <HAS_TIMER>FALSE</HAS_TIMER>
     <TIMER_VALUE>00:00:00</TIMER_VALUE>
     <COMPLETED>FALSE</COMPLETED>
@@ -241,14 +233,14 @@
     <DIRECTIONS>Stop boiling the wort.</DIRECTIONS>
     <HAS_TIMER>FALSE</HAS_TIMER>
     <TIMER_VALUE>0</TIMER_VALUE>
-    <COMPLETED>FALSE</COMPLETED>
-    <INTERVAL>-1.36844e-315</INTERVAL>
+    <COMPLETED>TRUE</COMPLETED>
+    <INTERVAL>1.60219e-306</INTERVAL>
    </INSTRUCTION>
    <INSTRUCTION>
     <NAME>Post boil</NAME>
-    <DIRECTIONS>You should have 22.554 L wort post-boil.
-You anticipate losing 946.353 mL to trub and chiller loss.
-The final volume in the primary is 21.608 L.</DIRECTIONS>
+    <DIRECTIONS>You should have 15.496 L wort post-boil.
+You anticipate losing 1.000 L to trub and chiller loss.
+The final volume in the primary is 14.496 L.</DIRECTIONS>
     <HAS_TIMER>FALSE</HAS_TIMER>
     <TIMER_VALUE>00:00:00</TIMER_VALUE>
     <COMPLETED>FALSE</COMPLETED>
@@ -264,7 +256,7 @@ The final volume in the primary is 21.608 L.</DIRECTIONS>
    </INSTRUCTION>
    <INSTRUCTION>
     <NAME>Ferment</NAME>
-    <DIRECTIONS>Let ferment until FG is 1.014.</DIRECTIONS>
+    <DIRECTIONS>Let ferment until FG is 1.013.</DIRECTIONS>
     <HAS_TIMER>FALSE</HAS_TIMER>
     <TIMER_VALUE>00:00:00</TIMER_VALUE>
     <COMPLETED>FALSE</COMPLETED>
